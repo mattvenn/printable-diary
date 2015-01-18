@@ -3,11 +3,11 @@
 Don't have a smart phone but want to continue making use of your online (google)
 calendar?
 
-The idea here is to print a diary, one month at a time that includes your todo
-list (trello), business cards, blank and graph paper etc.
+The idea here is to print a diary, one month at a time that also includes your
+todo list (trello), business cards, blank and graph paper, nice title photo etc.
 
-It is very rough around the edges. All done with shell scripts, pdftk and
-pdfnup. Everytime I print a diary it gets a bit better. I may move to
+It is very rough around the edges. Currently all done with shell scripts, pdftk
+and pdfnup. Everytime I print a diary it gets a bit better. I may move to
 [pypdf2](https://pythonhosted.org/PyPDF2/PdfFileReader.html) in the future.
 
 # Requirements
@@ -20,6 +20,11 @@ pdfnup. Everytime I print a diary it gets a bit better. I may move to
 ## Title image
 
 put an image called title.png in the directory
+
+## Biz cards
+
+these are tear off business cards. I made an svg doc called biz.svg you can
+modify.
 
 ## Calendar
 
@@ -38,11 +43,23 @@ the 'Doing' set of the 'tasks' board. Change the file if you have to.
 
 ## Generating all the pdfs
 
-run prep.sh
+run prep.sh:
+
+    ./prep.sh
+
+you should now have a load of pdfs in your directory: 
+
+biz.pdf blank.pdf cal_1.pdf cal_2.pdf cal_3.pdf cal_4.pdf graph.pdf title.pdf todo.pdf
 
 ## Collating into a single pdf for double sided printing
 
-collate.sh
+This collates everything in the right order, rotating everything apart from the
+calendars.
+
+    ./collate.sh
+
+Now you have: cal_a4.pdf and cal_a5.pdf for printing. Print double sided, short
+edge binding. Or first all odd pages then back in the printer and even pages.
 
 # Log
 
