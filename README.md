@@ -35,6 +35,9 @@ Make a symlink to it called 'current_cal.pdf':
 
     ln -s calendar_2015XXXXX.pdf current_cal.pdf
 
+I'd love to automate this but have no idea how to interact with all the
+javascript on the google calendar page.
+
 ## Trello
 
 Move trellokeys.blank to trellokeys.py and add your API details.
