@@ -1,0 +1,6 @@
+# coding: utf-8
+api_key = ''
+api_secret = ''
+oauth_token        = ''
+oauth_token_secret = ''
+
