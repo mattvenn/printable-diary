@@ -10,7 +10,16 @@ It is very rough around the edges. All done with shell scripts, pdftk and
 pdfnup. Everytime I print a diary it gets a bit better. I may move to
 [pypdf2](https://pythonhosted.org/PyPDF2/PdfFileReader.html) in the future.
 
+# Requirements
+
+* for todo list stuff: pandoc (maybe xelatex too), trello python library
+* pdftk, pdfnup
+
 # Making it
+
+## Title image
+
+put an image called title.png in the directory
 
 ## Calendar
 
