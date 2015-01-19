@@ -66,7 +66,11 @@ edge binding. Or first all odd pages then back in the printer and even pages.
 
 # Log
 
-what I did last time:
+## Mon Jan 19 15:23:58 GMT 2015
+
+2 sided print from chrome the 2nd sides were flipped. No 2 sided print option from ubuntu. Printed 1,3,5 on laser printer with ubuntu. Put in correct order, with cover image towards me on the tray. Print 2,4,6 and all in correct order.
+
+## what I did Sat 17/01/15
 
 print side1nup.pdf on 3 sheets
 then put in the other side up, so that cover image is at top of printer
