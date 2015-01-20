@@ -70,6 +70,7 @@ I use the [5 hole pamphlet stitch](http://www.designsponge.com/2013/03/bookbindi
 
 # Todo
 
+* can embedded images in svg be used to do rotation of images for title/biz?
 * date on front
 * reverse pics on the business cards
 * select pics from a pool somewhere
