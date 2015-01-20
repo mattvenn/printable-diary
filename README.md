@@ -68,6 +68,12 @@ edge binding. Or first all odd pages then back in the printer and even pages.
 
 I use the [5 hole pamphlet stitch](http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html) to hold it all together.
 
+# Todo
+
+* date on front
+* reverse pics on the business cards
+* select pics from a pool somewhere
+
 # Log
 
 ## Mon Jan 19 15:23:58 GMT 2015
