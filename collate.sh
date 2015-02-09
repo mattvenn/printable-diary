@@ -10,6 +10,6 @@
 
 #pdfnup --no-landscape --nup 1x2 side2.pdf -o side2nup.pdf
 
-pdftk A=todo.pdf B=title.pdf C=blank.pdf D=cal_4.pdf E=cal_3.pdf F=biz.pdf G=blank.pdf H=cal_2.pdf I=cal_1.pdf J=blank.pdf K=graph.pdf L=graph.pdf cat Aeast Beast Ceast D E Feast Geast H I Jeast Keast Least output cal_a4.pdf
+pdftk A=todo.pdf B=cover.pdf C=blank.pdf D=cal_4.pdf E=cal_3.pdf F=biz.pdf G=blank.pdf H=cal_2.pdf I=cal_1.pdf J=blank.pdf K=graph.pdf L=graph.pdf cat Aeast Beast Ceast D E Feast Geast H I Jeast Keast Least output cal_a4.pdf
 
 pdfnup --no-landscape --nup 1x2 cal_a4.pdf -o cal_a5.pdf
