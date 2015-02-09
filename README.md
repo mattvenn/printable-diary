@@ -17,9 +17,9 @@ and pdfnup. Everytime I print a diary it gets a bit better. I may move to
 
 # Making it
 
-## Title image
+## Cover image
 
-put an image called title.png in the directory
+put an image called cover.png in the directory
 
 ## Biz cards
 
@@ -52,7 +52,7 @@ run prep.sh:
 
 you should now have a load of pdfs in your directory: 
 
-biz.pdf blank.pdf cal_1.pdf cal_2.pdf cal_3.pdf cal_4.pdf graph.pdf title.pdf todo.pdf
+biz.pdf blank.pdf cal_1.pdf cal_2.pdf cal_3.pdf cal_4.pdf graph.pdf cover.pdf todo.pdf
 
 ## Collating into a single pdf for double sided printing
 
@@ -71,7 +71,7 @@ I use the [5 hole pamphlet stitch](http://www.designsponge.com/2013/03/bookbindi
 # Todo
 
 * can embedded images in svg be used to do rotation of images for title/biz?
-* date on front
+    * now using svglue for cover page
 * reverse pics on the business cards
 * select pics from a pool somewhere
 
